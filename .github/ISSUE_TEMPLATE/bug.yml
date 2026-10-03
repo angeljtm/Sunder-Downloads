@@ -1,0 +1,58 @@
+name: Bug report
+description: Tell me what broke while testing Sunder
+title: "[Bug] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing Sunder. Please include enough detail to reproduce the problem.
+  - type: input
+    id: mac
+    attributes:
+      label: Mac model / chip
+      description: Example: MacBook Pro M2 Pro
+      placeholder: Mac model and Apple Silicon chip
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: Example: macOS 15.7
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Sunder version
+      placeholder: Example: 0.9.1 Beta
+    validations:
+      required: true
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: Describe what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Imported...
+        2. Clicked...
+        3. Rendered...
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Media details
+      description: File type, resolution, codec, duration, or anything else relevant. Do not upload private media unless you want it public.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error text or logs
+      render: shell

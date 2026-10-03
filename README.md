@@ -1,12 +1,13 @@
 # Sunder
 
-A monochrome datamosh video editor for macOS.
+Sunder is a datamosh video editor for macOS built for turning everyday moments into something unforgettable. Drop in your videos, add a song, and Sunder automatically cuts and syncs your footage to the music. Experiment with datamosh effects, timing, speed, overlays, and splitscreen edits to create something uniquely yours.
+Your footage. Your music. Beautifully broken.
 
 ## Download
 
 **Get the latest beta from [Releases](https://github.com/angeljtm/Sunder-Downloads/releases).**
 
-Sunder is currently a friends beta for **Apple Silicon Macs (M1 or newer)** running **macOS 14 or newer**.
+Sunder is currently in beta for **Apple Silicon Macs (M1 or newer)** running **macOS 14 or newer**.
 
 ## Required: FFmpeg
 
@@ -34,6 +35,3 @@ Try importing video and music, generating/rerolling a cut, timeline zoom and scr
 
 If something breaks, open a [bug report](https://github.com/angeljtm/Sunder-Downloads/issues/new?template=bug.yml).
 
-## About the source-code download links
-
-GitHub automatically adds **Source code (zip)** and **Source code (tar.gz)** to every release. Those archives contain only this public downloads repository. The Sunder application source is kept in a separate private repository.
